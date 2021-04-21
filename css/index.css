@@ -27,6 +27,15 @@ button {
 
 .mainText p {
   font-size: x-large;
+  transition: 0.5s;
+}
+
+.mainText h1 {
+  transition: 0.5s;
+}
+
+.mainText hr {
+  transition: 0.5s;
 }
 
 .mainText button {
