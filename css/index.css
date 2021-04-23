@@ -39,6 +39,7 @@ button {
 }
 
 .mainText button {
+  margin: 2px;
   font-size: x-large;
   width: 175px;
   height: 40px;
@@ -54,4 +55,24 @@ button {
   color: white;
   background-color: #000000;
   box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .mainText h1 {
+    font-size: x-large;
+    transition: 0.5s;
+  }
+
+  .mainText p {
+    font-size: 125%;
+    transition: 0.5s;
+  }
+
+  .mainText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+  }
 }
